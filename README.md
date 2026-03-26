@@ -2,7 +2,7 @@
 
 An affordable, open-source smartwatch powered by the nRF52840 with an e-paper display, designed for low power consumption and BLE connectivity.
 
-![InkTime assembled](Images/inktime_assembled.png)
+![InkTime assembled](Images/InkTime/InkTime_Side.png)
 
 ## Hardware Diagram
 
@@ -19,7 +19,7 @@ The InkTime smartwatch is built around the Nordic nRF52840 microcontroller and f
                           │  USBLC6 (D3) │ ESD Protection
                           └──────┬───────┘
                                  │
-              ┌──────────────────┼──────────────────┐
+              ┌──────────────────┼───────────────────┐
               │                  │                   │
        ┌──────▼────────┐  ┌──────▼───────┐   ┌───────▼──────┐
        │  BQ25180 (IC3)│  │              │   │              │
