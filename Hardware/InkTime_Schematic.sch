@@ -3051,6 +3051,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 </class>
 <class number="2" name="data_width" width="0" drill="0">
 </class>
+<class number="3" name="d_plus_minus" width="0" drill="0">
+</class>
 </classes>
 <parts>
 <part name="NRF52840_QF" library="InkTime_v5" deviceset="NORDIC_NRF_4_NRF52840_QF" device="" value="NRF52840_QF"/>
@@ -4705,7 +4707,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <pinref part="C20" gate="C$1" pin="1"/>
 </segment>
 </net>
-<net name="D-" class="2">
+<net name="D-" class="3">
 <segment>
 <pinref part="NRF52840_QF" gate="G$1" pin="D-@AD4"/>
 <wire x1="35.56" y1="15.24" x2="35.56" y2="10.16" width="0.1524" layer="91"/>
@@ -4717,7 +4719,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <label x="165.1" y="-200.66" size="1.524" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="D+" class="2">
+<net name="D+" class="3">
 <segment>
 <pinref part="NRF52840_QF" gate="G$1" pin="D+@AD6"/>
 <wire x1="38.1" y1="15.24" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
@@ -4762,8 +4764,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <pinref part="C31" gate="C$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="NRF52840_QF" gate="G$1" pin="P0.20@AD16"/>
-<wire x1="60.96" y1="15.24" x2="60.96" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="NRF52840_QF" gate="G$1" pin="P0.14@AC9"/>
+<wire x1="43.18" y1="15.24" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
 <label x="43.18" y="10.16" size="1.524" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
@@ -4786,8 +4788,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <label x="-106.68" y="-200.66" size="1.524" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="NRF52840_QF" gate="G$1" pin="P0.22@AD18"/>
-<wire x1="66.04" y1="15.24" x2="66.04" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="NRF52840_QF" gate="G$1" pin="P0.16@AC11"/>
+<wire x1="48.26" y1="15.24" x2="48.26" y2="7.62" width="0.1524" layer="91"/>
 <label x="48.26" y="7.62" size="1.524" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
@@ -4846,13 +4848,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <pinref part="NRF52840_QF" gate="G$1" pin="P0.25@AC21"/>
 <wire x1="73.66" y1="15.24" x2="73.66" y2="7.62" width="0.1524" layer="91"/>
 <label x="73.66" y="7.62" size="1.524" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="SWO\" class="2">
-<segment>
-<pinref part="NRF52840_QF" gate="G$1" pin="P1.00@AD22"/>
-<wire x1="76.2" y1="15.24" x2="76.2" y2="7.62" width="0.1524" layer="91"/>
-<label x="76.2" y="7.62" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="VREG" class="1">
@@ -4963,6 +4958,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <wire x1="-30.48" y1="22.86" x2="-33.02" y2="22.86" width="0.1524" layer="91"/>
 <label x="-33.02" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="NRF52840_QF" gate="G$1" pin="P1.00@AD22"/>
+<wire x1="76.2" y1="15.24" x2="76.2" y2="7.62" width="0.1524" layer="91"/>
+<label x="76.2" y="7.62" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="N$26" class="2">
 <segment>
@@ -4982,9 +4982,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <pinref part="C37" gate="C$1" pin="1"/>
 </segment>
 <segment>
-<label x="116.84" y="-114.3" size="1.524" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="CELL"/>
 <wire x1="76.2" y1="-127" x2="86.36" y2="-127" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-127" x2="86.36" y2="-127" width="0.1524" layer="91"/>
@@ -4997,6 +4994,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <wire x1="88.9" y1="-129.54" x2="88.9" y2="-139.7" width="0.1524" layer="91"/>
 <label x="88.9" y="-127" size="1.524" layer="95" xref="yes"/>
 <pinref part="C27" gate="C$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="TP_VBAT" gate="G$1" pin="TP"/>
+<wire x1="119.38" y1="-114.3" x2="116.84" y2="-114.3" width="0.1524" layer="91"/>
+<label x="116.84" y="-114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$29" class="2">
@@ -5155,12 +5157,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <pinref part="TP_OP" gate="G$1" pin="TP"/>
 <wire x1="157.48" y1="-43.18" x2="154.94" y2="-43.18" width="0.1524" layer="91"/>
 <label x="154.94" y="-43.18" size="1.524" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$33" class="2">
-<segment>
-<pinref part="TP_VBAT" gate="G$1" pin="TP"/>
-<wire x1="119.38" y1="-114.3" x2="116.84" y2="-114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="2">
@@ -5537,20 +5533,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <pinref part="C34" gate="C$1" pin="1"/>
 </segment>
 </net>
-<net name="P0.20" class="2">
-<segment>
-<pinref part="NRF52840_QF" gate="G$1" pin="P0.14@AC9"/>
-<wire x1="43.18" y1="15.24" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
-<label x="60.96" y="7.62" size="1.524" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="P0.22" class="2">
-<segment>
-<pinref part="NRF52840_QF" gate="G$1" pin="P0.16@AC11"/>
-<wire x1="48.26" y1="15.24" x2="48.26" y2="7.62" width="0.1524" layer="91"/>
-<label x="66.04" y="7.62" size="1.524" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
 <net name="P0.26" class="2">
 <segment>
 <pinref part="NRF52840_QF" gate="G$1" pin="P0.26@G1"/>
@@ -5591,6 +5573,20 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <pinref part="NRF52840_QF" gate="G$1" pin="P0.04/AIN2@J1"/>
 <wire x1="15.24" y1="63.5" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
 <label x="10.16" y="63.5" size="1.524" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="P0.20" class="2">
+<segment>
+<pinref part="NRF52840_QF" gate="G$1" pin="P0.20@AD16"/>
+<wire x1="60.96" y1="15.24" x2="60.96" y2="7.62" width="0.1524" layer="91"/>
+<label x="60.96" y="7.62" size="1.524" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="P0.22" class="2">
+<segment>
+<pinref part="NRF52840_QF" gate="G$1" pin="P0.22@AD18"/>
+<wire x1="66.04" y1="15.24" x2="66.04" y2="7.62" width="0.1524" layer="91"/>
+<label x="66.04" y="7.62" size="1.524" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>
