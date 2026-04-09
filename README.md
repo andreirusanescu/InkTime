@@ -253,6 +253,22 @@ Tag-Connect pogo-pin interface: SWDIO, SWDCLK, SWO, RESET, 3.3V, GND. No permane
 |----------|---------------------|------------|
 | ![Top](Images/InkTime/InkTime_Top.png) | ![Buttons](Images/InkTime/InkTime_Buttons.png) | ![USB-C](Images/InkTime/InkTime_USBC.png) |
 
+### Exploded View
+
+| Side View (Exploded) | Front View (Exploded) |
+|----------------------|-----------------------|
+| ![Components Side](Images/InkTime/Components_Side.png) | ![Components Expanded](Images/InkTime/Components_expanded.png) |
+
+### 3D Component Models
+
+| Display (Top) | Display (Side — Rounded Edges) | Display (Edges) |
+|---------------|-------------------------------|-----------------|
+| ![Display Top](Images/InkTime/Display_Top.png) | ![Display Side](Images/InkTime/Display_Side.png) | ![Display Edges](Images/InkTime/Display_Edges.png) |
+
+| Battery (LP502030) | Shaker Motor (FIT0774) |
+|--------------------|------------------------|
+| ![Battery](Images/InkTime/Battery.png) | ![Shaker](Images/InkTime/Shaker.png) |
+
 ### PCB Renders
 
 | 3D Top View | 3D Side View |
