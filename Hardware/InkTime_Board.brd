@@ -1764,6 +1764,7 @@ Note: annular ring aren't minimal
 <param name="checkWireStubs" value="1"/>
 <param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
+<param name="flattenRefDes" value="0"/>
 <param name="maxErrors" value="50"/>
 </designrules>
 <autorouter>
@@ -1867,7 +1868,7 @@ Note: annular ring aren't minimal
 <attribute name="NAME" x="41.91585" y="-0.09638125" size="0.6096" layer="21"/>
 <attribute name="VALUE" x="40.6941375" y="0.1403375" size="0.254" layer="27" rot="R270"/>
 </element>
-<element name="ANT1" library="InkTime_v5" package="2450AT18B100E_ANTC3216X140N" value="2450AT18B100E" x="59.3126375" y="12.92989375" smashed="yes">
+<element uuid="0xABCDEF0E" name="ANT1" library="InkTime_v5" package="2450AT18B100E_ANTC3216X140N" value="2450AT18B100E" x="59.3126375" y="12.92989375" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="2450AT18B100E" x="117.7326375" y="-153.44010625" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/2450at18b100e/johanson-dielectrics?utm_currency=USD&amp;region=nac" x="117.7326375" y="-153.44010625" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Antennas 2.45GHz ANTENNA" x="117.7326375" y="-153.44010625" size="1.778" layer="27" display="off"/>
@@ -1879,7 +1880,7 @@ Note: annular ring aren't minimal
 <attribute name="NAME" x="60.2651375" y="10.38989375" size="0.8128" layer="21" align="center"/>
 <attribute name="VALUE" x="59.3126375" y="15.46989375" size="0.254" layer="27" align="center"/>
 </element>
-<element name="D2" library="InkTime_v5" package="ESP32_C6_LIBRARY_5_SOD3716X135N" value="MBR0530" x="24.529290625" y="-13.757665625" smashed="yes" rot="R180">
+<element uuid="0xABCDEF04" name="D2" library="InkTime_v5" package="ESP32_C6_LIBRARY_5_SOD3716X135N" value="MBR0530" x="24.529290625" y="-13.757665625" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="In Stock" x="6.749290625" y="152.612334375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MBR0530/Onsemi/view-part/?ref=eda" x="6.749290625" y="152.612334375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" Diode Schottky 30 V 500mA Surface Mount SOD-123 " x="6.749290625" y="152.612334375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1892,7 +1893,7 @@ Note: annular ring aren't minimal
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MBR0530/Onsemi/view-part/?ref=snap" x="6.749290625" y="152.612334375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="24.529290625" y="-14.075165625" size="0.254" layer="27" rot="R180" align="center"/>
 </element>
-<element name="D5" library="InkTime_v5" package="ESP32_C6_LIBRARY_5_SOD3716X135N" value="MBR0530" x="32.8882625" y="-12.009903125" smashed="yes">
+<element uuid="0xABCDEF0A" name="D5" library="InkTime_v5" package="ESP32_C6_LIBRARY_5_SOD3716X135N" value="MBR0530" x="32.8882625" y="-12.009903125" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="60.8282625" y="-178.379903125" size="1.778" layer="27" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MBR0530/Onsemi/view-part/?ref=eda" x="60.8282625" y="-178.379903125" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Diode Schottky 30 V 500mA Surface Mount SOD-123 " x="60.8282625" y="-178.379903125" size="1.778" layer="27" display="off"/>
@@ -1917,7 +1918,7 @@ Note: annular ring aren't minimal
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part/?ref=snap" x="202.2475" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="39.0525" y="4.7625" size="0.254" layer="27" rot="R90" align="center"/>
 </element>
-<element name="D4" library="InkTime_v5" package="ESP32_C6_LIBRARY_5_SOD3716X135N" value="MBR0530" x="24.49099375" y="-15.819209375" smashed="yes">
+<element uuid="0xABCDEF06" name="D4" library="InkTime_v5" package="ESP32_C6_LIBRARY_5_SOD3716X135N" value="MBR0530" x="24.49099375" y="-15.819209375" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="62.59099375" y="-182.189209375" size="1.778" layer="27" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MBR0530/Onsemi/view-part/?ref=eda" x="62.59099375" y="-182.189209375" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Diode Schottky 30 V 500mA Surface Mount SOD-123 " x="62.59099375" y="-182.189209375" size="1.778" layer="27" display="off"/>
@@ -1930,7 +1931,7 @@ Note: annular ring aren't minimal
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MBR0530/Onsemi/view-part/?ref=snap" x="62.59099375" y="-182.189209375" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="24.49099375" y="-15.819209375" size="0.254" layer="27" align="center"/>
 </element>
-<element name="IC1" library="InkTime_v5" package="RT6160AWSC_BGA15C40P3X5_140X230X60" value="RT6160AWSC" x="49.23210625" y="-14.04740625" smashed="yes">
+<element uuid="0xABCDEF1D" name="IC1" library="InkTime_v5" package="RT6160AWSC_BGA15C40P3X5_140X230X60" value="RT6160AWSC" x="49.23210625" y="-14.04740625" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="75.90210625" y="-175.33740625" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="75.90210625" y="-175.33740625" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Buck-Boost Regulator Positive Output Step-Up/Step-Down I2C DC-DC Controller IC 15-WL-CSP (BSC) (1.4x2.3)" x="75.90210625" y="-175.33740625" size="1.778" layer="27" display="off"/>
@@ -1942,7 +1943,7 @@ Note: annular ring aren't minimal
 <attribute name="NAME" x="50.83884375" y="-12.768065625" size="0.6096" layer="21" align="center"/>
 <attribute name="VALUE" x="49.8446" y="-12.78365625" size="0.254" layer="27" align="center"/>
 </element>
-<element name="IC2" library="InkTime_v5" package="BMA423_BMA423" value="BMA423" x="42.3222" y="-11.1125" smashed="yes">
+<element uuid="0xABCDEF1F" name="IC2" library="InkTime_v5" package="BMA423_BMA423" value="BMA423" x="42.3222" y="-11.1125" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="BMA423" x="151.5422" y="-162.2425" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/bma423/bosch" x="151.5422" y="-162.2425" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Accelerometers Triaxial low-g 12bit Acceleration Sensor" x="151.5422" y="-162.2425" size="1.778" layer="27" display="off"/>
@@ -1954,7 +1955,7 @@ Note: annular ring aren't minimal
 <attribute name="NAME" x="42.830484375" y="-8.31571875" size="0.6096" layer="21" align="center"/>
 <attribute name="VALUE" x="37.2422" y="-9.14" size="0.6096" layer="27" align="center"/>
 </element>
-<element name="IC3" library="InkTime_v5" package="BQ25180YBGR_BGA8C40P2X4_100X155X50" value="BQ25180YBGR" x="39.37" y="-6.0872" smashed="yes" rot="R180">
+<element uuid="0xABCDEF03" name="IC3" library="InkTime_v5" package="BQ25180YBGR_BGA8C40P2X4_100X155X50" value="BQ25180YBGR" x="39.37" y="-6.0872" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="BQ25180YBGR" x="-30.48" y="155.2028" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/bq25180ybgr/texas-instruments?utm_currency=USD&amp;region=nac" x="-30.48" y="155.2028" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Charger IC Lithium Ion/Polymer, Lithium Iron Phosphate 8-DSBGA (1.6x1.1)" x="-30.48" y="155.2028" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1966,7 +1967,7 @@ Note: annular ring aren't minimal
 <attribute name="NAME" x="40.862403125" y="-5.754453125" size="0.6096" layer="21" rot="R180" align="center"/>
 <attribute name="VALUE" x="40.005" y="-7.6747" size="0.3048" layer="27" rot="R180" align="center"/>
 </element>
-<element name="IC4" library="InkTime_v5" package="DRV2605YZFR_BGA9C50P3X3_144X144X62" value="DRV2605YZFR" x="38.735" y="0.9525" smashed="yes">
+<element uuid="0xABCDEF15" name="IC4" library="InkTime_v5" package="DRV2605YZFR_BGA9C50P3X3_144X144X62" value="DRV2605YZFR" x="38.735" y="0.9525" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="DRV2605YZFR" x="59.055" y="-138.7475" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/drv2605yzfr/texas-instruments?region=nac" x="59.055" y="-138.7475" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Haptic Driver for ERM/LRA with Built-In Library and Smart Loop Architecture" x="59.055" y="-138.7475" size="1.778" layer="27" display="off"/>
@@ -1976,7 +1977,7 @@ Note: annular ring aren't minimal
 <attribute name="NAME" x="40.10675" y="2.22614375" size="0.6096" layer="21" align="center"/>
 <attribute name="VALUE" x="37.7825" y="2.2225" size="0.6096" layer="27" align="center"/>
 </element>
-<element name="J1" library="InkTime_v5" package="TC2030-IDC_TC2030IDC" value="TC2030-IDC" x="60.6425" y="-12.065" smashed="yes">
+<element uuid="0xABCDEF19" name="J1" library="InkTime_v5" package="TC2030-IDC_TC2030IDC" value="TC2030-IDC" x="60.6425" y="-12.065" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="111.4425" y="-144.145" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="111.4425" y="-144.145" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="CABLE ADAPTER 6 POS" x="111.4425" y="-144.145" size="1.778" layer="27" display="off"/>
@@ -1988,7 +1989,7 @@ Note: annular ring aren't minimal
 <attribute name="NAME" x="60.430434375" y="-17.46439375" size="0.8128" layer="21" align="center"/>
 <attribute name="VALUE" x="61.5925" y="-10.795" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J2" library="InkTime_v5" package="503480-2400_5034802400" value="503480-2400" x="28.32039375" y="-2.11" locked="yes" smashed="yes" rot="R270">
+<element uuid="0xABCDEF01" name="J2" library="InkTime_v5" package="503480-2400_5034802400" value="503480-2400" x="28.32039375" y="-2.11" locked="yes" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="FFC &amp; FPC Connectors 0.5mm FPC RA SMT Dual Contact 24Ckt" x="-101.21960625" y="-126.57" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.87mm" x="-101.21960625" y="-126.57" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Molex" x="-101.21960625" y="-126.57" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1998,7 +1999,7 @@ Note: annular ring aren't minimal
 <attribute name="NAME" x="28.015659375" y="-5.795775" size="1.27" layer="21" align="center"/>
 <attribute name="VALUE" x="28.32039375" y="-2.11" locked="yes" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="J4" library="InkTime_v5" package="KH-TYPE-C-16P_KINGHELM_KH-TYPE-C-16P" value="KH-TYPE-C-16P_KH-TYPE-C-16P" x="41.91" y="13.7188" locked="yes" smashed="yes" rot="R180">
+<element uuid="0xABCDEF30" name="J4" library="InkTime_v5" package="KH-TYPE-C-16P_KINGHELM_KH-TYPE-C-16P" value="KH-TYPE-C-16P_KH-TYPE-C-16P" x="41.91" y="13.7188" locked="yes" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Not in stock" x="-77.47" y="101.3488" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/KH-TYPE-C-16P/Kinghelm/view-part/?ref=eda" x="-77.47" y="101.3488" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="                                                                                                    " x="-77.47" y="101.3488" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2058,11 +2059,11 @@ Note: annular ring aren't minimal
 <attribute name="NAME" x="32.942046875" y="0.293259375" size="0.6096" layer="21" align="center"/>
 <attribute name="VALUE" x="35.2909" y="1.5875" size="0.254" layer="27" align="center"/>
 </element>
-<element name="NRF52840_QF" library="InkTime_v5" package="NORDIC_NRF_4_AQFN50P700X700X85_HS-74N" value="NRF52840_QF" x="48.559775" y="-4.6949875" smashed="yes">
+<element uuid="0xABCDEF1B" name="NRF52840_QF" library="InkTime_v5" package="NORDIC_NRF_4_AQFN50P700X700X85_HS-74N" value="NRF52840_QF" x="48.559775" y="-4.6949875" smashed="yes">
 <attribute name="NAME" x="57.087996875" y="-6.476584375" size="0.4064" layer="21" rot="R180"/>
 <attribute name="VALUE" x="42.6101125" y="-4.23363125" size="1" layer="27"/>
 </element>
-<element name="Q3" library="InkTime_v5" package="ESP32_C6_LIBRARY_6_SOT65P210X110-3N" value="SI1308EDL-T1-GE3" x="32.520021875" y="4.86208125" smashed="yes">
+<element uuid="0xABCDEF08" name="Q3" library="InkTime_v5" package="ESP32_C6_LIBRARY_6_SOT65P210X110-3N" value="SI1308EDL-T1-GE3" x="32.520021875" y="4.86208125" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="115.070021875" y="-161.50791875" size="1.778" layer="27" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SI1308EDL-T1-GE3/Vishay+Siliconix/view-part/?ref=eda" x="115.070021875" y="-161.50791875" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Si1308EDL-T1-GE3 N-channel MOSFET Transistor, 1.5 A, 30 V, 3-Pin SC-70 | Siliconix / Vishay SI1308EDL-T1-GE3 " x="115.070021875" y="-161.50791875" size="1.778" layer="27" display="off"/>
@@ -2075,7 +2076,7 @@ Note: annular ring aren't minimal
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SI1308EDL-T1-GE3/Vishay+Siliconix/view-part/?ref=snap" x="115.070021875" y="-161.50791875" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="28.075021875" y="4.54458125" size="0.254" layer="27" align="center"/>
 </element>
-<element name="Q1" library="InkTime_v5" package="ESP32_C6_LIBRARY_4_ESP32_C6_LIBRARY_4_ESP32_C6_LIBRARY_4_ESP32_C6_LIBRARY_4_ESP32_WROVER_SPARKFUN-DISCRETESEMI_SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="32.7329" y="-2.2849" smashed="yes" rot="R90">
+<element uuid="0xABCDEF32" name="Q1" library="InkTime_v5" package="ESP32_C6_LIBRARY_4_ESP32_C6_LIBRARY_4_ESP32_C6_LIBRARY_4_ESP32_C6_LIBRARY_4_ESP32_WROVER_SPARKFUN-DISCRETESEMI_SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="32.7329" y="-2.2849" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.391540625" y="-2.479178125" size="0.6096" layer="21" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="TRAN-14388" x="164.8129" y="61.2151" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="32.4154" y="-0.9514" size="0.3048" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
@@ -2125,7 +2126,7 @@ Note: annular ring aren't minimal
 <attribute name="NAME" x="55.204884375" y="-14.03205625" size="0.6096" layer="21" ratio="6" rot="R180"/>
 <attribute name="VALUE" x="54.9497" y="-18.8388" size="0.3048" layer="27" ratio="6" rot="R180"/>
 </element>
-<element name="SW_ENT" library="InkTime_v5" package="2025-10-22_07-23-44_LIBRARY_SW_EVP-AKE31A_PAN" value="EVP-AKE31A_PAN" x="42.31" y="-16.7194" smashed="yes" rot="R180">
+<element uuid="0xABCDEF16" name="SW_ENT" library="InkTime_v5" package="2025-10-22_07-23-44_LIBRARY_SW_EVP-AKE31A_PAN" value="EVP-AKE31A_PAN" x="42.31" y="-16.7194" smashed="yes" rot="R180">
 <attribute name="COPYRIGHT" value="Copyright (C) 2025 Ultra Librarian. All rights reserved." x="-27.54" y="54.4006" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER_1" value="P123437TR-ND" x="-27.54" y="54.4006" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER_2" value="P123437CT-ND" x="-27.54" y="54.4006" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2135,7 +2136,7 @@ Note: annular ring aren't minimal
 <attribute name="NAME" x="44.9462" y="-16.3829" size="0.8128" layer="27" ratio="6" rot="R180"/>
 <attribute name="VALUE" x="44.0388" y="-19.2404" size="0.3048" layer="27" ratio="6" rot="R180"/>
 </element>
-<element name="SW_UP" library="InkTime_v5" package="2025-10-22_07-23-44_LIBRARY_SW_EVP-AKE31A_PAN" value="EVP-AKE31A_PAN" x="31.3693" y="-16.7559" smashed="yes" rot="R180">
+<element uuid="0xABCDEF10" name="SW_UP" library="InkTime_v5" package="2025-10-22_07-23-44_LIBRARY_SW_EVP-AKE31A_PAN" value="EVP-AKE31A_PAN" x="31.3693" y="-16.7559" smashed="yes" rot="R180">
 <attribute name="COPYRIGHT" value="Copyright (C) 2025 Ultra Librarian. All rights reserved." x="-38.4807" y="96.2741" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER_1" value="P123437TR-ND" x="-38.4807" y="96.2741" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER_2" value="P123437CT-ND" x="-38.4807" y="96.2741" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2229,7 +2230,7 @@ Note: annular ring aren't minimal
 <attribute name="TP_SIGNAL_NAME" value="" x="37.712528125" y="-19.240546875" size="1" layer="37"/>
 <attribute name="VALUE" x="36.950528125" y="-17.716546875" size="0.0254" layer="27"/>
 </element>
-<element name="X1" library="InkTime_v5" package="NORDIC_NRF_BT-XTAL_2016_N" value="32MHZ" x="56.75891875" y="-3.73168125" smashed="yes">
+<element uuid="0xABCDEF0C" name="X1" library="InkTime_v5" package="NORDIC_NRF_BT-XTAL_2016_N" value="32MHZ" x="56.75891875" y="-3.73168125" smashed="yes">
 <attribute name="NAME" x="58.281821875" y="-3.4561875" size="0.6096" layer="21"/>
 <attribute name="VALUE" x="55.96391875" y="-4.72668125" size="0.254" layer="27"/>
 </element>
@@ -2286,13 +2287,13 @@ Note: annular ring aren't minimal
 <attribute name="NAME" x="49.659228125" y="1.2699" size="0.4064" layer="21" rot="R270"/>
 <attribute name="VALUE" x="50.019696875" y="-1.941634375" size="0.254" layer="27" rot="R90"/>
 </element>
-<element name="C8" library="InkTime_v5" package="NORDIC_NRF_3_RESC0201_L" value="100nF" x="52.8951625" y="-10.534646875" smashed="yes" rot="R270">
-<attribute name="NAME" x="51.84455" y="-11.330578125" size="0.4064" layer="21"/>
-<attribute name="VALUE" x="52.1651625" y="-9.804646875" size="0.254" layer="27" rot="R270"/>
+<element name="C8" library="InkTime_v5" package="NORDIC_NRF_3_RESC0201_L" value="100nF" x="52.85901875" y="-9.160884375" smashed="yes" rot="R270">
+<attribute name="NAME" x="51.595596875" y="-9.58435625" size="0.4064" layer="21"/>
+<attribute name="VALUE" x="52.12901875" y="-8.430884375" size="0.254" layer="27" rot="R270"/>
 </element>
-<element name="C7" library="InkTime_v5" package="NORDIC_NRF_3_RESC0201_L" value="100nF" x="49.8475" y="-10.16" smashed="yes">
-<attribute name="NAME" x="50.579615625" y="-10.765571875" size="0.4064" layer="21" rot="R180"/>
-<attribute name="VALUE" x="49.853190625" y="-11.1199125" size="0.254" layer="27" rot="R90"/>
+<element name="C7" library="InkTime_v5" package="NORDIC_NRF_3_RESC0201_L" value="100nF" x="49.4396125" y="-9.24658125" smashed="yes">
+<attribute name="NAME" x="50.326728125" y="-9.86625" size="0.4064" layer="21" rot="R180"/>
+<attribute name="VALUE" x="49.445303125" y="-10.20649375" size="0.254" layer="27" rot="R90"/>
 </element>
 <element name="C21" library="InkTime_v5" package="NORDIC_NRF_3_RESC0402_L" value="4.7uF" x="45.704971875" y="-11.249359375" smashed="yes" rot="R180">
 <attribute name="NAME" x="46.08795" y="-11.90323125" size="0.4064" layer="21" rot="R180"/>
@@ -2360,6 +2361,7 @@ Note: annular ring aren't minimal
 </element>
 <element name="C19" library="InkTime_v5" package="NORDIC_NRF_3_RESC0201_L" value="100nF" x="42.2275" y="-9.7975" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.13574375" y="-8.9213" size="0.4064" layer="25" rot="R180"/>
+<attribute name="SPICEPREFIX" value="C" x="42.2275" y="-9.7975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="42.9575" y="-9.0675" size="0.254" layer="27" rot="R180"/>
 </element>
 <element name="C1-EP-DR" library="InkTime_v5" package="NORDIC_NRF_3_RESC0402_L" value="10uF" x="31.628996875" y="-0.472096875" smashed="yes" rot="R180">
@@ -3049,7 +3051,7 @@ Note: annular ring aren't minimal
 <wire x1="45.771778125" y1="-17.085921875" x2="45.530015625" y2="-17.085921875" width="0.1524" layer="16"/>
 <wire x1="45.771778125" y1="-17.085921875" x2="46.179321875" y2="-17.085921875" width="0.1524" layer="1"/>
 <wire x1="46.179321875" y1="-17.085921875" x2="46.1038" y2="-17.0104" width="0.1524" layer="1"/>
-<wire x1="50.1025" y1="-10.65816875" x2="50.1025" y2="-10.16" width="0.15" layer="1"/>
+<wire x1="49.6946125" y1="-9.74475" x2="49.6946125" y2="-9.24658125" width="0.15" layer="1"/>
 <wire x1="27.8990625" y1="-3.63509375" x2="27.8990625" y2="-9.2259375" width="0.1524" layer="1"/>
 <via x="55.8112375" y="-5.2348875" extent="1-16" drill="0.3" alwaysstop="yes">
 </via>
@@ -3259,8 +3261,8 @@ Note: annular ring aren't minimal
 </via>
 <via x="53.8760625" y="-12.09235" extent="1-16" drill="0.2" alwaysstop="yes">
 </via>
-<wire x1="52.47328125" y1="-10.789646875" x2="52.8951625" y2="-10.789646875" width="0.15" layer="1"/>
-<wire x1="51.68455" y1="-11.578378125" x2="52.47328125" y2="-10.789646875" width="0.15" layer="1"/>
+<wire x1="52.85901875" y1="-10.403909375" x2="52.85901875" y2="-9.415884375" width="0.15" layer="1"/>
+<wire x1="51.68455" y1="-11.578378125" x2="52.85901875" y2="-10.403909375" width="0.15" layer="1"/>
 <wire x1="52.57040625" y1="-13.473171875" x2="52.57040625" y2="-13.38029375" width="0.15" layer="1"/>
 <wire x1="51.19120625" y1="-11.578378125" x2="51.68455" y2="-11.578378125" width="0.15" layer="1"/>
 <via x="51.129659375" y="-11.409446875" extent="1-16" drill="0.2" alwaysstop="yes">
@@ -3357,6 +3359,7 @@ Note: annular ring aren't minimal
 <wire x1="40.395915625" y1="0.6971875" x2="40.0552625" y2="0.356534375" width="0.15" layer="15"/>
 <via x="43.62166875" y="0.121384375" extent="1-16" drill="0.2">
 </via>
+<contactref element="TP_GND" pad="TP"/>
 </signal>
 <signal name="N$4" class="2">
 <contactref element="NRF52840_QF" pad="P$H23"/>
@@ -3404,8 +3407,9 @@ Note: annular ring aren't minimal
 <wire x1="45.809775" y1="-6.73536875" x2="45.809775" y2="-6.6949875" width="0.15" layer="1"/>
 <wire x1="45.67635625" y1="-6.8687875" x2="45.809775" y2="-6.73536875" width="0.1524" layer="1"/>
 <wire x1="45.67635625" y1="-6.8687875" x2="45.67465625" y2="-6.8687875" width="0.1524" layer="1"/>
-<wire x1="45.67635625" y1="-6.81156875" x2="45.309775" y2="-6.4449875" width="0.15" layer="1"/>
-<wire x1="45.67635625" y1="-6.8687875" x2="45.67635625" y2="-6.81156875" width="0.15" layer="1"/>
+<wire x1="45.67635625" y1="-6.608265625" x2="45.513078125" y2="-6.4449875" width="0.15" layer="1"/>
+<wire x1="45.513078125" y1="-6.4449875" x2="45.309775" y2="-6.4449875" width="0.15" layer="1"/>
+<wire x1="45.67635625" y1="-6.8687875" x2="45.67635625" y2="-6.608265625" width="0.15" layer="1"/>
 <wire x1="45.09016875" y1="-9.01983125" x2="44.7675" y2="-9.3425" width="0.1524" layer="1"/>
 <wire x1="45.67465625" y1="-6.8687875" x2="45.09016875" y2="-7.453275" width="0.1524" layer="1"/>
 <wire x1="45.09016875" y1="-7.453275" x2="45.09016875" y2="-9.01983125" width="0.1524" layer="1"/>
@@ -3948,9 +3952,10 @@ Note: annular ring aren't minimal
 <wire x1="41.4814" y1="-14.6812" x2="41.55129375" y2="-14.6812" width="0.1524" layer="1"/>
 <wire x1="41.55129375" y1="-14.6812" x2="41.63549375" y2="-14.597" width="0.1524" layer="1"/>
 <wire x1="41.63549375" y1="-14.597" x2="42.045" y2="-14.597" width="0.1524" layer="1"/>
-<via x="49.521134375" y="-9.50025625" extent="1-16" drill="0.2" alwaysstop="yes">
+<via x="50.8512" y="-9.526859375" extent="1-16" drill="0.2" alwaysstop="yes">
 </via>
-<wire x1="49.521134375" y1="-9.50025625" x2="49.521134375" y2="-11.827509375" width="0.15" layer="15"/>
+<wire x1="50.8512" y1="-9.526859375" x2="50.00140625" y2="-10.376653125" width="0.15" layer="15"/>
+<wire x1="50.00140625" y1="-10.376653125" x2="50.00140625" y2="-13.3558" width="0.15" layer="15"/>
 <via x="39.4756" y="-17.03185" extent="1-16" drill="0.2" alwaysstop="yes">
 </via>
 <wire x1="39.7038" y1="-16.80365" x2="39.7038" y2="-16.78625625" width="0.15" layer="15"/>
@@ -3964,15 +3969,13 @@ Note: annular ring aren't minimal
 <wire x1="40.3787" y1="-16.11135625" x2="43.67916875" y2="-16.11135625" width="0.15" layer="15"/>
 <wire x1="47.29460625" y1="-16.0626" x2="50.00140625" y2="-13.3558" width="0.15" layer="15"/>
 <wire x1="43.727925" y1="-16.0626" x2="47.29460625" y2="-16.0626" width="0.15" layer="15"/>
-<wire x1="49.521134375" y1="-11.827509375" x2="50.00140625" y2="-12.30778125" width="0.15" layer="15"/>
-<wire x1="50.00140625" y1="-13.3558" x2="50.00140625" y2="-12.30778125" width="0.15" layer="15"/>
 <contactref element="NRF52840_QF" pad="P$AC9"/>
 <via x="47.5586625" y="-7.4449875" extent="1-16" drill="0.2" alwaysstop="yes">
 </via>
-<wire x1="49.521134375" y1="-9.50025625" x2="49.521134375" y2="-9.473146875" width="0.15" layer="16"/>
+<wire x1="50.8512" y1="-9.526859375" x2="49.57499375" y2="-9.52700625" width="0.15" layer="16"/>
 <wire x1="47.6586625" y1="-7.610675" x2="47.6586625" y2="-7.5449875" width="0.15" layer="16"/>
 <wire x1="47.6586625" y1="-7.5449875" x2="47.5586625" y2="-7.4449875" width="0.15" layer="16"/>
-<wire x1="49.521134375" y1="-9.473146875" x2="47.6586625" y2="-7.610675" width="0.15" layer="16"/>
+<wire x1="49.57499375" y1="-9.52700625" x2="47.6586625" y2="-7.610675" width="0.15" layer="16"/>
 <wire x1="47.559775" y1="-7.4449875" x2="47.5586625" y2="-7.4449875" width="0.15" layer="1"/>
 </signal>
 <signal name="EPD_DC" class="2">
@@ -4458,7 +4461,6 @@ Note: annular ring aren't minimal
 <wire x1="28.710465625" y1="-15.09533125" x2="28.9359375" y2="-15.095334375" width="0.1524" layer="1"/>
 <wire x1="29.173971875" y1="-14.8573" x2="33.06399375" y2="-14.8573" width="0.1524" layer="1"/>
 <wire x1="34.0774" y1="-18.55131875" x2="34.57608125" y2="-19.05" width="0.1524" layer="1"/>
-<wire x1="34.57608125" y1="-19.05" x2="38.955190625" y2="-19.05" width="0.1524" layer="1"/>
 <wire x1="41.2826" y1="-14.33" x2="41.44210625" y2="-14.33" width="0.1524" layer="1"/>
 <wire x1="41.44210625" y1="-14.33" x2="41.70130625" y2="-14.0708" width="0.1524" layer="1"/>
 <wire x1="43.38869375" y1="-14.0708" x2="44.292" y2="-14.97410625" width="0.1524" layer="1"/>
@@ -4474,13 +4476,15 @@ Note: annular ring aren't minimal
 <wire x1="50.7657875" y1="-15.8567" x2="50.83568125" y2="-15.8567" width="0.1524" layer="1"/>
 <wire x1="50.83568125" y1="-15.8567" x2="51.03448125" y2="-15.6579" width="0.1524" layer="1"/>
 <wire x1="41.0838" y1="-14.5288" x2="41.2826" y2="-14.33" width="0.1524" layer="1"/>
-<wire x1="38.955190625" y1="-19.05" x2="38.955190625" y2="-16.480915625" width="0.1524" layer="1"/>
-<wire x1="38.955190625" y1="-16.480915625" x2="40.90730625" y2="-14.5288" width="0.1524" layer="1"/>
 <wire x1="40.90730625" y1="-14.5288" x2="41.0838" y2="-14.5288" width="0.1524" layer="1"/>
 <wire x1="46.252828125" y1="-19.1566" x2="49.64526875" y2="-19.1566" width="0.1524" layer="1"/>
 <wire x1="49.64526875" y1="-19.1566" x2="50.5576" y2="-18.24426875" width="0.1524" layer="1"/>
 <wire x1="50.5576" y1="-18.24426875" x2="50.5576" y2="-16.0648875" width="0.1524" layer="1"/>
 <wire x1="50.5576" y1="-16.0648875" x2="50.7657875" y2="-15.8567" width="0.1524" layer="1"/>
+<wire x1="38.938725" y1="-18.3363375" x2="38.938725" y2="-16.49738125" width="0.1524" layer="1"/>
+<wire x1="38.938725" y1="-16.49738125" x2="40.90730625" y2="-14.5288" width="0.1524" layer="1"/>
+<wire x1="34.57608125" y1="-19.05" x2="38.2250625" y2="-19.05" width="0.1524" layer="1"/>
+<wire x1="38.2250625" y1="-19.05" x2="38.938725" y2="-18.3363375" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$39" class="2">
 <contactref element="J2" pad="4"/>
@@ -4589,9 +4593,6 @@ Note: annular ring aren't minimal
 <wire x1="40.16" y1="8.9938" x2="40.16" y2="8.1938" width="0.1524" layer="1"/>
 <wire x1="40.16" y1="8.1938" x2="40.0576" y2="8.0914" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$8" class="2">
-<contactref element="TP_GND" pad="TP"/>
-</signal>
 <signal name="RESE" class="2">
 <contactref element="Q3" pad="2"/>
 <contactref element="R1_EP_DR" pad="2"/>
@@ -4657,6 +4658,7 @@ Note: annular ring aren't minimal
 <wire x1="38.68689375" y1="-7.4086875" x2="38.68689375" y2="-7.78929375" width="0.3" layer="1"/>
 <wire x1="38.68689375" y1="-7.78929375" x2="38.6855375" y2="-7.79065" width="0.3" layer="1"/>
 <wire x1="38.6855375" y1="-9.106765625" x2="38.4120125" y2="-9.380290625" width="0.3" layer="1"/>
+<wire x1="38.6855375" y1="-7.360025" x2="38.6855375" y2="-7.79065" width="0.3" layer="1"/>
 <wire x1="38.6855375" y1="-7.79065" x2="38.6855375" y2="-9.106765625" width="0.3" layer="1"/>
 <wire x1="38.68689375" y1="-7.4086875" x2="38.68689375" y2="-7.2078625" width="0.3" layer="1"/>
 <wire x1="40.6075" y1="6.7367625" x2="40.6075" y2="6.3625" width="0.3" layer="1"/>
@@ -4669,8 +4671,7 @@ Note: annular ring aren't minimal
 </via>
 <wire x1="46.204971875" y1="-11.249359375" x2="45.8874625" y2="-10.93185" width="0.3" layer="1"/>
 <wire x1="45.8874625" y1="-10.93185" x2="45.8874625" y2="-10.369325" width="0.3" layer="1"/>
-<wire x1="38.6855375" y1="-7.79065" x2="38.2549125" y2="-7.79065" width="0.3" layer="1"/>
-<wire x1="38.2549125" y1="-7.79065" x2="37.699196875" y2="-8.346365625" width="0.3" layer="1"/>
+<wire x1="37.699196875" y1="-8.346365625" x2="38.6855375" y2="-7.360025" width="0.3" layer="1"/>
 <wire x1="37.699196875" y1="-8.346365625" x2="37.699196875" y2="-8.721634375" width="0.3" layer="1"/>
 <via x="37.699196875" y="-8.721634375" extent="1-16" drill="0.35" alwaysstop="yes">
 </via>
@@ -4708,9 +4709,9 @@ Note: annular ring aren't minimal
 <wire x1="39.615521875" y1="-10.2598" x2="39.40269375" y2="-10.2598" width="0.1524" layer="1"/>
 <wire x1="39.40269375" y1="-10.2598" x2="39.1222875" y2="-10.54020625" width="0.1524" layer="1"/>
 <wire x1="44.78240625" y1="-14.1843375" x2="39.792671875" y2="-14.1843375" width="0.15" layer="15"/>
-<wire x1="39.1222875" y1="-10.54020625" x2="39.1222875" y2="-11.683590625" width="0.1524" layer="1"/>
-<wire x1="39.1222875" y1="-11.683590625" x2="39.1222875" y2="-12.5872875" width="0.1524" layer="1"/>
-<wire x1="39.1222875" y1="-12.5872875" x2="36.4140625" y2="-15.2955125" width="0.1524" layer="1"/>
+<wire x1="39.1222875" y1="-10.54020625" x2="39.1222875" y2="-12.5872875" width="0.1524" layer="1"/>
+<wire x1="39.1222875" y1="-12.5872875" x2="38.860571875" y2="-12.849003125" width="0.1524" layer="1"/>
+<wire x1="38.860571875" y1="-12.849003125" x2="36.4140625" y2="-15.2955125" width="0.1524" layer="1"/>
 <wire x1="36.4140625" y1="-15.2955125" x2="35.6451125" y2="-15.2955125" width="0.1524" layer="1"/>
 <wire x1="39.615521875" y1="-10.2598" x2="39.466346875" y2="-10.408975" width="0.1524" layer="1"/>
 <contactref element="IC2" pad="12"/>
@@ -4750,8 +4751,6 @@ Note: annular ring aren't minimal
 <wire x1="37.8222125" y1="-11.33639375" x2="37.8222125" y2="-11.31015" width="0.1524" layer="1"/>
 <wire x1="37.8222125" y1="-11.31015" x2="37.504484375" y2="-10.992421875" width="0.1524" layer="1"/>
 <wire x1="37.504484375" y1="-10.992421875" x2="35.417675" y2="-10.992421875" width="0.1524" layer="1"/>
-<wire x1="39.1222875" y1="-11.683590625" x2="38.169409375" y2="-11.683590625" width="0.1524" layer="1"/>
-<wire x1="38.169409375" y1="-11.683590625" x2="37.8222125" y2="-11.33639375" width="0.1524" layer="1"/>
 <via x="39.28170625" y="-14.2170375" extent="1-16" drill="0.3" alwaysstop="yes">
 </via>
 <wire x1="39.466346875" y1="-10.408975" x2="39.466346875" y2="-14.032396875" width="0.1524" layer="1"/>
@@ -4789,6 +4788,8 @@ Note: annular ring aren't minimal
 <wire x1="37.4471" y1="0.2285" x2="37.4471" y2="-1.982609375" width="0.15" layer="16"/>
 <wire x1="38.0384375" y1="0.2559375" x2="37.4745375" y2="0.2559375" width="0.15" layer="1"/>
 <wire x1="37.4745375" y1="0.2559375" x2="37.4471" y2="0.2285" width="0.15" layer="1"/>
+<wire x1="37.8222125" y1="-11.33639375" x2="38.860571875" y2="-12.374753125" width="0.1524" layer="1"/>
+<wire x1="38.860571875" y1="-12.374753125" x2="38.860571875" y2="-12.849003125" width="0.1524" layer="1"/>
 </signal>
 <signal name="SDA" class="2">
 <contactref element="IC3" pad="C1"/>
@@ -4919,9 +4920,8 @@ Note: annular ring aren't minimal
 <contactref element="C7" pad="1"/>
 <contactref element="NRF52840_QF" pad="P$AD23"/>
 <contactref element="C8" pad="1"/>
-<wire x1="52.85661875" y1="-10.241103125" x2="52.8951625" y2="-10.279646875" width="0.3" layer="1"/>
-<wire x1="52.093284375" y1="-8.75568125" x2="52.85661875" y2="-9.519015625" width="0.3" layer="1"/>
-<wire x1="52.85661875" y1="-9.519015625" x2="52.85661875" y2="-10.241103125" width="0.3" layer="1"/>
+<wire x1="52.85901875" y1="-8.905884375" x2="52.2434875" y2="-8.905884375" width="0.3" layer="1"/>
+<wire x1="52.2434875" y1="-8.905884375" x2="52.093284375" y2="-8.75568125" width="0.3" layer="1"/>
 <wire x1="43.08108125" y1="-12.64564375" x2="42.5722" y2="-12.1367625" width="0.3" layer="1"/>
 <contactref element="NRF52840_QF" pad="P$A22"/>
 <contactref element="C12" pad="1"/>
@@ -4938,7 +4938,7 @@ Note: annular ring aren't minimal
 <wire x1="54.749125" y1="-2.08700625" x2="55.0107" y2="-2.34858125" width="0.3" layer="1"/>
 <wire x1="44.721090625" y1="0.76694375" x2="44.721090625" y2="-0.964290625" width="0.3" layer="1"/>
 <contactref element="J1" pad="1"/>
-<wire x1="56.8325" y1="-11.1125" x2="55.88" y2="-10.16" width="0.3" layer="1"/>
+<wire x1="56.8325" y1="-11.1125" x2="56.08975" y2="-10.36975" width="0.3" layer="1"/>
 <wire x1="59.6895" y1="-12.7" x2="59.441" y2="-12.9485" width="0.3" layer="1"/>
 <wire x1="59.441" y1="-12.9485" x2="58.0535375" y2="-12.9485" width="0.3" layer="1"/>
 <wire x1="58.0535375" y1="-12.9485" x2="56.8325" y2="-11.7274625" width="0.3" layer="1"/>
@@ -4949,12 +4949,7 @@ Note: annular ring aren't minimal
 <contactref element="C34" pad="1"/>
 <wire x1="55.0107" y1="-2.82586875" x2="55.0107" y2="-8.70611875" width="0.3" layer="15"/>
 <wire x1="55.0107" y1="-8.70611875" x2="54.865290625" y2="-8.851528125" width="0.3" layer="15"/>
-<wire x1="49.534725" y1="-11.74221875" x2="49.5925" y2="-11.68444375" width="0.3" layer="1"/>
-<wire x1="49.5925" y1="-11.68444375" x2="49.5925" y2="-10.16" width="0.3" layer="1"/>
-<wire x1="52.8951625" y1="-10.279646875" x2="52.9651625" y2="-10.349646875" width="0.3" layer="1"/>
-<wire x1="52.9651625" y1="-10.349646875" x2="53.234421875" y2="-10.349646875" width="0.3" layer="1"/>
-<wire x1="53.234421875" y1="-10.349646875" x2="53.254525" y2="-10.36975" width="0.3" layer="1"/>
-<wire x1="53.254525" y1="-10.36975" x2="54.4002125" y2="-10.36975" width="0.3" layer="1"/>
+<wire x1="49.1846125" y1="-12.09233125" x2="49.1846125" y2="-9.24658125" width="0.3" layer="1"/>
 <wire x1="47.986259375" y1="-13.290684375" x2="43.478059375" y2="-13.290684375" width="0.3" layer="15"/>
 <wire x1="43.11895625" y1="-12.64564375" x2="43.08108125" y2="-12.64564375" width="0.3" layer="1"/>
 <wire x1="43.079775" y1="-12.6955375" x2="43.079775" y2="-12.684825" width="0.3" layer="1"/>
@@ -4981,8 +4976,7 @@ Note: annular ring aren't minimal
 <wire x1="37.04415625" y1="-1.0849" x2="37.70679375" y2="-0.4222625" width="0.3" layer="1"/>
 <wire x1="42.4825" y1="-9.7975" x2="42.723725" y2="-9.556275" width="0.3" layer="1"/>
 <wire x1="42.723725" y1="-9.556275" x2="43.180046875" y2="-9.556275" width="0.3" layer="1"/>
-<wire x1="55.88" y1="-10.16" x2="55.67025" y2="-10.36975" width="0.3" layer="1"/>
-<wire x1="55.67025" y1="-10.36975" x2="54.4002125" y2="-10.36975" width="0.3" layer="1"/>
+<wire x1="56.08975" y1="-10.36975" x2="54.4002125" y2="-10.36975" width="0.3" layer="1"/>
 <wire x1="56.887671875" y1="-1.24909375" x2="57.819175" y2="-0.317590625" width="0.3" layer="1"/>
 <wire x1="56.05229375" y1="-1.24909375" x2="56.887671875" y2="-1.24909375" width="0.3" layer="1"/>
 <wire x1="55.7138875" y1="-1.5875" x2="56.05229375" y2="-1.24909375" width="0.3" layer="1"/>
@@ -5002,7 +4996,8 @@ Note: annular ring aren't minimal
 <via x="48.86978125" y="-12.4071625" extent="1-16" drill="0.3" alwaysstop="yes">
 </via>
 <wire x1="48.86978125" y1="-12.4071625" x2="47.986259375" y2="-13.290684375" width="0.3" layer="15"/>
-<wire x1="48.86978125" y1="-12.4071625" x2="49.534725" y2="-11.74221875" width="0.3" layer="1"/>
+<wire x1="48.86978125" y1="-12.4071625" x2="49.1846125" y2="-12.09233125" width="0.3" layer="1"/>
+<wire x1="49.1846125" y1="-12.09233125" x2="49.534725" y2="-11.74221875" width="0.3" layer="1"/>
 <wire x1="41.5104625" y1="-8.691925" x2="40.9374" y2="-9.2649875" width="0.3" layer="1"/>
 <wire x1="42.4825" y1="-9.7975" x2="42.4825" y2="-9.2280375" width="0.3" layer="1"/>
 <wire x1="42.4825" y1="-9.2280375" x2="41.9463875" y2="-8.691925" width="0.3" layer="1"/>
@@ -5028,10 +5023,15 @@ Note: annular ring aren't minimal
 <wire x1="41.698059375" y1="0.977328125" x2="40.05226875" y2="-0.6684625" width="0.3" layer="1"/>
 <wire x1="40.05226875" y1="-0.6684625" x2="38.9812" y2="-0.6684625" width="0.3" layer="1"/>
 <wire x1="38.9812" y1="-0.6684625" x2="38.735" y2="-0.4222625" width="0.3" layer="1"/>
-<wire x1="49.32438125" y1="-9.97525625" x2="49.40775625" y2="-9.97525625" width="0.3" layer="1"/>
-<wire x1="49.40775625" y1="-9.97525625" x2="49.5925" y2="-10.16" width="0.3" layer="1"/>
-<wire x1="48.809775" y1="-7.9449875" x2="48.809775" y2="-9.46065" width="0.3" layer="1"/>
-<wire x1="48.809775" y1="-9.46065" x2="49.32438125" y2="-9.97525625" width="0.3" layer="1"/>
+<wire x1="53.374015625" y1="-9.151621875" x2="53.198278125" y2="-8.975884375" width="0.3" layer="1"/>
+<wire x1="53.198278125" y1="-8.975884375" x2="52.92901875" y2="-8.975884375" width="0.3" layer="1"/>
+<wire x1="52.92901875" y1="-8.975884375" x2="52.85901875" y2="-8.905884375" width="0.3" layer="1"/>
+<wire x1="54.4002125" y1="-10.36975" x2="53.374015625" y2="-9.343553125" width="0.3" layer="1"/>
+<wire x1="53.374015625" y1="-9.343553125" x2="53.374015625" y2="-9.151621875" width="0.3" layer="1"/>
+<wire x1="48.809775" y1="-7.9449875" x2="48.909775" y2="-8.0449875" width="0.3" layer="1"/>
+<wire x1="48.909775" y1="-8.0449875" x2="48.909775" y2="-8.110675" width="0.3" layer="1"/>
+<wire x1="49.1846125" y1="-8.3855125" x2="49.1846125" y2="-9.24658125" width="0.3" layer="1"/>
+<wire x1="48.909775" y1="-8.110675" x2="49.1846125" y2="-8.3855125" width="0.3" layer="1"/>
 </signal>
 <signal name="P0.26" class="2">
 <contactref element="NRF52840_QF" pad="P$G1"/>
@@ -5175,6 +5175,8 @@ Note: annular ring aren't minimal
 <approved hash="19,1,e2f3e2f1c7f7c7f5"/>
 <approved hash="19,1,23bd23d1cf37cf5b"/>
 <approved hash="19,1,c7bdc7dd8b3b8b5b"/>
+<approved hash="3,1,7cca7cc851ae51ac"/>
+<approved hash="3,1,0019ac322c2d8006"/>
 </errors>
 </board>
 </drawing>

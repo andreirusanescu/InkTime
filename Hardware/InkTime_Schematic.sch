@@ -3055,15 +3055,15 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 </class>
 </classes>
 <parts>
-<part name="NRF52840_QF" library="InkTime_v5" deviceset="NORDIC_NRF_4_NRF52840_QF" device="" value="NRF52840_QF"/>
+<part uuid="0xABCDEF1A" name="NRF52840_QF" library="InkTime_v5" deviceset="NORDIC_NRF_4_NRF52840_QF" device="" value="NRF52840_QF"/>
 <part name="L1" library="InkTime_v5" deviceset="MLP2016SR47MT0S1_FTC252012SR47MBCA" device="" value="3.9nH"/>
 <part name="L2" library="InkTime_v5" deviceset="MLP2016SR47MT0S1_FTC252012SR47MBCA" device="" value="10uH"/>
 <part name="L3" library="InkTime_v5" deviceset="MLP2016SR47MT0S1_FTC252012SR47MBCA" device="" value="15nH"/>
-<part name="X1" library="InkTime_v5" deviceset="NORDIC_NRF_XTAL_32MHZ" device="" value="32MHZ"/>
+<part uuid="0xABCDEF0F" name="X1" library="InkTime_v5" deviceset="NORDIC_NRF_XTAL_32MHZ" device="" value="32MHZ"/>
 <part name="X2" library="InkTime_v5" deviceset="NORDIC_NRF_1_XTAL_32KHZ" device="" value="32.768KHZ"/>
-<part name="ANT1" library="InkTime_v5" deviceset="2450AT18B100E_2450AT18B100E" device="" value="2450AT18B100E"/>
-<part name="J1" library="InkTime_v5" deviceset="TC2030-IDC_TC2030-IDC" device="" value="TC2030-IDC"/>
-<part name="IC1" library="InkTime_v5" deviceset="RT6160AWSC_RT6160AWSC" device="" value="RT6160AWSC"/>
+<part uuid="0xABCDEF09" name="ANT1" library="InkTime_v5" deviceset="2450AT18B100E_2450AT18B100E" device="" value="2450AT18B100E"/>
+<part uuid="0xABCDEF18" name="J1" library="InkTime_v5" deviceset="TC2030-IDC_TC2030-IDC" device="" value="TC2030-IDC"/>
+<part uuid="0xABCDEF1C" name="IC1" library="InkTime_v5" deviceset="RT6160AWSC_RT6160AWSC" device="" value="RT6160AWSC"/>
 <part name="GND23" library="InkTime_v5" deviceset="HECTOR_WATCH_2_GND" device="" value="GND"/>
 <part name="R1" library="InkTime_v5" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="0"/>
 <part name="R2" library="InkTime_v5" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="0"/>
@@ -3079,36 +3079,36 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <part name="TP_RESET" library="InkTime_v5" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
 <part name="TP_3.3V" library="InkTime_v5" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
 <part name="TP_GND" library="InkTime_v5" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
-<part name="IC2" library="InkTime_v5" deviceset="BMA423_BMA423" device="" value="BMA423"/>
+<part uuid="0xABCDEF1E" name="IC2" library="InkTime_v5" deviceset="BMA423_BMA423" device="" value="BMA423"/>
 <part name="R5" library="InkTime_v5" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="0"/>
-<part name="IC3" library="InkTime_v5" deviceset="BQ25180YBGR_BQ25180YBGR" device="" value="BQ25180YBGR"/>
+<part uuid="0xABCDEF02" name="IC3" library="InkTime_v5" deviceset="BQ25180YBGR_BQ25180YBGR" device="" value="BQ25180YBGR"/>
 <part name="R6" library="InkTime_v5" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10K"/>
-<part name="D4" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_5_MBR0530" device="" value="MBR0530"/>
-<part name="D5" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_5_MBR0530" device="" value="MBR0530"/>
-<part name="D2" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_5_MBR0530" device="" value="MBR0530"/>
+<part uuid="0xABCDEF01" name="D4" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_5_MBR0530" device="" value="MBR0530"/>
+<part uuid="0xABCDEF05" name="D5" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_5_MBR0530" device="" value="MBR0530"/>
+<part uuid="0xABCDEF07" name="D2" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_5_MBR0530" device="" value="MBR0530"/>
 <part name="L5" library="InkTime_v5" deviceset="MLP2016SR47MT0S1_FTC252012SR47MBCA" device="" value="68uH"/>
-<part name="Q3" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_6_SI1308EDL-T1-GE3" device="" value="SI1308EDL-T1-GE3"/>
+<part uuid="0xABCDEF0B" name="Q3" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_6_SI1308EDL-T1-GE3" device="" value="SI1308EDL-T1-GE3"/>
 <part name="R2_EP_DR" library="InkTime_v5" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10K"/>
 <part name="R1_EP_DR" library="InkTime_v5" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="0.47"/>
 <part name="GND37" library="InkTime_v5" deviceset="HECTOR_WATCH_2_GND" device="" value="GND"/>
 <part name="SJ1" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_7_JUMPER_SJ" device=""/>
 <part name="R_TYPE_SEL" library="InkTime_v5" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="2.2"/>
-<part name="Q1" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_4_ESP32_WROVER_SPARKFUN-DISCRETESEMI_MOSFET_PCH" device="-DMG2305UX-7" value="20V/4.2A/52mΩ/1.4W"/>
+<part uuid="0xABCDEF0D" name="Q1" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_4_ESP32_WROVER_SPARKFUN-DISCRETESEMI_MOSFET_PCH" device="-DMG2305UX-7" value="20V/4.2A/52mΩ/1.4W"/>
 <part name="R_PWR_EPD" library="InkTime_v5" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10K"/>
-<part name="IC4" library="InkTime_v5" deviceset="DRV2605YZFR_DRV2605YZFR" device="" value="DRV2605YZFR"/>
+<part uuid="0xABCDEF14" name="IC4" library="InkTime_v5" deviceset="DRV2605YZFR_DRV2605YZFR" device="" value="DRV2605YZFR"/>
 <part name="TP_OP" library="InkTime_v5" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
 <part name="TP_ON" library="InkTime_v5" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
 <part name="U1" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_MAX17048G+T10" device="" value="MAX17048G+T10"/>
 <part name="TP_VBAT" library="InkTime_v5" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
 <part name="TP_BAT_GND" library="InkTime_v5" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
-<part name="SW_UP" library="InkTime_v5" deviceset="2025-10-22_07-23-44_LIBRARY_EVP-AKE31A" device="SW_EVP-AKE31A_PAN" value="EVP-AKE31A_PAN"/>
+<part uuid="0xABCDEF13" name="SW_UP" library="InkTime_v5" deviceset="2025-10-22_07-23-44_LIBRARY_EVP-AKE31A" device="SW_EVP-AKE31A_PAN" value="EVP-AKE31A_PAN"/>
 <part name="R7" library="InkTime_v5" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10k"/>
-<part name="SW_ENT" library="InkTime_v5" deviceset="2025-10-22_07-23-44_LIBRARY_EVP-AKE31A" device="SW_EVP-AKE31A_PAN" value="EVP-AKE31A_PAN"/>
+<part uuid="0xABCDEF11" name="SW_ENT" library="InkTime_v5" deviceset="2025-10-22_07-23-44_LIBRARY_EVP-AKE31A" device="SW_EVP-AKE31A_PAN" value="EVP-AKE31A_PAN"/>
 <part name="R8" library="InkTime_v5" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10k"/>
-<part name="SW_DN" library="InkTime_v5" deviceset="2025-10-22_07-23-44_LIBRARY_EVP-AKE31A" device="SW_EVP-AKE31A_PAN" value="EVP-AKE31A_PAN"/>
+<part uuid="0xABCDEF17" name="SW_DN" library="InkTime_v5" deviceset="2025-10-22_07-23-44_LIBRARY_EVP-AKE31A" device="SW_EVP-AKE31A_PAN" value="EVP-AKE31A_PAN"/>
 <part name="R9" library="InkTime_v5" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10k"/>
-<part name="J2" library="InkTime_v5" deviceset="503480-2400_503480-2400" device="" value="503480-2400"/>
-<part name="J4" library="InkTime_v5" deviceset="KH-TYPE-C-16P_KH-TYPE-C-16P" device=""/>
+<part uuid="0xABCDEF00" name="J2" library="InkTime_v5" deviceset="503480-2400_503480-2400" device="" value="503480-2400"/>
+<part uuid="0xABCDEF33" name="J4" library="InkTime_v5" deviceset="KH-TYPE-C-16P_KH-TYPE-C-16P" device=""/>
 <part name="R2_USB" library="InkTime_v5" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="5K1"/>
 <part name="R1_USB" library="InkTime_v5" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="5k1"/>
 <part name="D3" library="InkTime_v5" deviceset="ESP32_C6_LIBRARY_3_USBLC6-2SC6Y" device=""/>
@@ -3197,7 +3197,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <part name="C25" library="InkTime_v5" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0402_L" value="22uF"/>
 <part name="C33" library="InkTime_v5" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0402_L" value="22uF"/>
 <part name="C23" library="InkTime_v5" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="0.1uF"/>
-<part name="C19" library="InkTime_v5" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="100nF"/>
+<part name="C19" library="InkTime_v5" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="100nF">
+<attribute name="SPICEPREFIX" value="C"/>
+</part>
 <part name="C1-EP-DR" library="InkTime_v5" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0402_L" value="10uF"/>
 <part name="C2-EP-DR" library="InkTime_v5" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0402_L" value="4.7uF"/>
 <part name="C27" library="InkTime_v5" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="0.1uF"/>
@@ -3220,6 +3222,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <part name="EPD_C12" library="InkTime_v5" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0402_L" value="1uF"/>
 <part name="L7" library="InkTime_v5" deviceset="MLP2016SR47MT0S1_FTC252012SR47MBCA" device="" value="FTC252012SR47MBCA"/>
 <part name="GND33" library="InkTime_v5" deviceset="HECTOR_WATCH_2_GND" device=""/>
+<part name="GND34" library="InkTime_v5" deviceset="SUPPLY1_GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3822,6 +3825,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <instance part="GND33" gate="1" x="129.54" y="-12.7" smashed="yes">
 <attribute name="VALUE" x="127" y="-15.24" size="1.778" layer="96"/>
 </instance>
+<instance part="GND34" gate="1" x="-35.56" y="-17.78" smashed="yes">
+<attribute name="VALUE" x="-38.1" y="-20.32" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4275,6 +4281,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <pinref part="J1" gate="G$1" pin="5"/>
 <pinref part="GND33" gate="1" pin="GND"/>
 <junction x="129.54" y="-10.16"/>
+</segment>
+<segment>
+<pinref part="TP_GND" gate="G$1" pin="TP"/>
+<wire x1="-33.02" y1="-15.24" x2="-35.56" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="GND34" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$4" class="2">
@@ -5136,7 +5147,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <segment>
 <pinref part="TP_ON" gate="G$1" pin="TP"/>
 <wire x1="157.48" y1="-50.8" x2="154.94" y2="-50.8" width="0.1524" layer="91"/>
-<label x="152.4" y="-50.8" size="1.524" layer="95" rot="R180" xref="yes"/>
+<label x="154.94" y="-50.8" size="1.524" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$34" class="2">
@@ -5267,12 +5278,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <pinref part="J4" gate="G$1" pin="CC2"/>
 <wire x1="66.04" y1="-236.22" x2="73.66" y2="-236.22" width="0.1524" layer="91"/>
 <pinref part="R2_USB" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$8" class="2">
-<segment>
-<pinref part="TP_GND" gate="G$1" pin="TP"/>
-<wire x1="-33.02" y1="-15.24" x2="-35.56" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESE" class="2">
